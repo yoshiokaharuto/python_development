@@ -1,0 +1,31 @@
+body{
+    background-color:#492489 ;
+    text-align: center;
+}
+.home1{
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+}
+.home2{
+    text-align: center;
+    list-style: none;
+	font-weight: bold;
+    padding: 30px;
+}
+p{
+    padding: 10px;
+    font-weight: bold;
+}
+.back{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: bold   ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,27 @@
+body{
+    background-color:#492489;
+    text-align: center;
+    font-weight: bold;
+}
+table{
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: auto;
+    border-width: 5px;
+    table-layout: fixed;
+    width: 700px;
+}
+
+a{
+    color:white;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+h1{
+    color:white;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}

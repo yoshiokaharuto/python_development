@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "{{url_for('static',filename = 'css/top.css')}}">
+    <title>Top</title>
+</head>
+<body>
+    <h1>クイズ</h1>
+
+    <div class="home1">
+        <div class="home2" >
+            <h2 class="title">ログイン</h2>
+            <form action="{{url_for('login')}}" method="post">
+                メール <br>
+                <input class="register" type="mail" name="mail"><br>
+                パスワード <br> 
+                <input class="register" type="password" name="pw"><br>
+        
+                <button type="submit" class="button">ログイン</button>
+            </form>
+        </div>
+    </div>
+    <a href="{{url_for('user.user_register')}}">新規登録</a>
+</body>
+</html>

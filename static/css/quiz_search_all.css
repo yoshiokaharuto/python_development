@@ -1,0 +1,49 @@
+body{
+    background-color:#492489 ;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+.home1{
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+}
+.home2{
+    text-align: center;
+    list-style: none;
+	font-weight: bold;
+    padding: 30px;
+}
+.button{
+    margin-top: 40px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px 20px,10px,20px;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+.back{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: bold   ;
+}
+.input{
+
+    border-color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px;
+    display: block;
+}
