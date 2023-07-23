@@ -3,7 +3,7 @@ body{
 }
 h1{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 50px;
 }
  .home1{
@@ -20,17 +20,10 @@ h1{
 	font-weight: bold;
     /* padding: 20px; */
 }
-.home3{
+a{
     color: black;
     text-decoration: none;
     font-size: 30px;
     /* padding: 30px; */
     display: block;
-}
-.logout{
-    font-size: 30px;
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-    font-weight: bold;
 }

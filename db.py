@@ -174,3 +174,16 @@ def quiz_select(id):
     cursor.close()
     
     return rows
+
+def quiz_delete(id):
+    connection = get_connection()
+    cursor = connection.cursor()
+    
+    sql = "DELETE FROM quiz_question WHERE quiz_id = %s"
+    
+    cursor.execute(sql,(id,))
+    
+    connection.commit()
+    
+    connection.close()
+    cursor.close()

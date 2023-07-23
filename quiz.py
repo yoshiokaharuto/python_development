@@ -68,14 +68,6 @@ def quiz_search_result():
     result = db.quiz_search(question)
     return render_template('quiz/quiz_search_result.html' ,list=result)
 
-
-
-@quiz_bp.route('quiz_delete')
-def quiz_delete():
-    quiz = db.quiz_list()
-    return render_template('quiz/quiz_delete.html' , list = quiz)
-
-
 @quiz_bp.route('/quiz_detail')
 def quiz_detail():
     
@@ -99,4 +91,16 @@ def quiz_answer():
     else:
         session.pop('quiz_answer')
         return render_template('quiz/quiz_fail.html')
+    
+@quiz_bp.route('quiz_delete')
+def quiz_delete():
+    return render_template('quiz/quiz_delete.html')
+
+@quiz_bp.route('quiz_delete_result',methods=['POST'])
+def quiz_delete_result():
+    
+    id = request.form.get('id')
+    result = db.quiz_delete(id)
+    return render_template('quiz/quiz_delete_result.html', result = result)
+
 
